@@ -51,7 +51,7 @@ export default function App() {
       <OrbitControls target-y={1} />
       <axesHelper args={[5]} />
       <gridHelper />
-      <Perf position="top-left" />
+      <Perf position="bottom-left" minimal={true}/>
     </Canvas>
   )
 }
