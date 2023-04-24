@@ -22,7 +22,7 @@ export default function App() {
     <Canvas camera={{ position: [1, 0, 1] }} shadows>
       <ambientLight intensity={40} />
       <Model />
-      <OrbitControls target={[0, 0.3, 0]} minDistance={1.5} maxDistance={3}/>
+      <OrbitControls target={[0, 0.3, 0]} minDistance={1} maxDistance={3}/>
       <Perf position="top-left" />
     </Canvas>
   )
