@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/react-three-fiber-boilerplate/static/css/main.e3a7a24e.css",
-    "main.js": "/react-three-fiber-boilerplate/static/js/main.5f477ccb.js",
+    "main.js": "/react-three-fiber-boilerplate/static/js/main.58b66af1.js",
     "static/media/paricutin.glb": "/react-three-fiber-boilerplate/static/media/paricutin.8226aacec59372323ce6.glb",
     "index.html": "/react-three-fiber-boilerplate/index.html",
     "main.e3a7a24e.css.map": "/react-three-fiber-boilerplate/static/css/main.e3a7a24e.css.map",
-    "main.5f477ccb.js.map": "/react-three-fiber-boilerplate/static/js/main.5f477ccb.js.map"
+    "main.58b66af1.js.map": "/react-three-fiber-boilerplate/static/js/main.58b66af1.js.map"
   },
   "entrypoints": [
     "static/css/main.e3a7a24e.css",
-    "static/js/main.5f477ccb.js"
+    "static/js/main.58b66af1.js"
   ]
 }
