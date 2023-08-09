@@ -1,4 +1,4 @@
-import { OrbitControls, useGLTF } from '@react-three/drei'
+import { TrackballControls, TrackballControlsControls, useGLTF } from '@react-three/drei'
 import { Canvas } from '@react-three/fiber'
 import { Suspense } from 'react'
 import { Perf } from 'r3f-perf'
@@ -23,7 +23,7 @@ export default function App() {
     <Canvas camera={{ position: [1, 0, 1] }} gl={{ toneMapping: LinearToneMapping, toneMappingExposure: 1.5 }}>
       <ambientLight intensity={40} />
       <Model />
-      <OrbitControls target={[0, 0.3, 0]} minDistance={1} maxDistance={3}/>
+      <TrackballControls target={[0, 0.3, 0]} minDistance={1} maxDistance={3}/>
       <Perf position="top-left" />
     </Canvas>
   )
